@@ -1,11 +1,13 @@
 import React from 'react'
-import Navbar from '../components/navbar';
+import Navbar from '../components/navbar/navbar';
 
 const Recipes = () => {
   return (
     <div>
+      <div className="dark">
         <Navbar />
-        Recipes
+        <h2>Explore Recipes</h2>
+        </div>
     </div>
   )
 }

@@ -1,0 +1,21 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 1rem;
+}
+
+li {
+    display: inline;
+    padding-right: 1rem;
+    
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+.login-btn {
+    float: right;
+}

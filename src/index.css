@@ -11,3 +11,81 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+
+.dark {
+  background-color: #4f4f4f;
+  color: white;
+}
+
+.medium {
+  background-color: #fafafa;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.light {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.center-section {
+  display: inline-block;
+  text-align: center;
+  width: 70%;
+}
+
+.center-icon {
+  height: 100;
+  width: 100;
+}
+
+.title-section {
+  margin-left: 5rem;
+  padding: 6rem 0 8rem 0;
+  width: 40%;
+}
+
+.header-title {
+  font-size: 4rem;
+}
+
+
+.header {
+  background-color: #4f4f4f;
+  color: white;
+}
+
+.get-started-btn {
+  color: white;
+  background-color: transparent;
+  border-color: white;
+  border-radius: 10px;
+  padding: 1rem;
+  font-size: 1.2rem;
+  border-style: solid;
+  border-width: 0.5px;
+}
+
+.btn-outlined-light {
+  color: white;
+  background-color: transparent;
+  border-color: white;
+  border-radius: 10px;
+  padding: 0.7rem 1rem;
+  font-weight: bold;
+  border-style: solid;
+  border-width: 0.5px;
+  float: right;
+}
+
+.btn-outlined-dark {
+  color: black;
+  background-color: transparent;
+  border-color: black;
+  border-radius: 10px;
+  padding: 0.7rem 1rem;
+  border-style: solid;
+  border-width: 0.5px;
+}
