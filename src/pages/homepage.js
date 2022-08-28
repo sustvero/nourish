@@ -2,6 +2,10 @@ import React from 'react';
 import Navbar from '../components/navbar/navbar';
 import Footer from '../components/footer';
 import Salad from '../assets/images/salad.png';
+import FeaturedSalad from '../assets/images/featured1.jpg'
+import FeaturedPasta from '../assets/images/featured2.jpg'
+import FeaturedToast from '../assets/images/featured3.jpg'
+import FeaturedCard from '../components/featuredCard/featuredCard';
 
 
 const HomePage = () => {
@@ -25,7 +29,11 @@ const HomePage = () => {
       </div>
       <div className="medium">
         <h3>Featured Recipes</h3>
-        <p>foods tbd</p>
+        <div className="featured">
+          <FeaturedCard image={FeaturedSalad} title="The Ultimate Salad Bowl" description="A simple salad you can make in under 10 minutes."/>
+          <FeaturedCard image={FeaturedPasta} title="Hearty Roasted Veggie Pasta" description="Cheesy, filling, and delicious."/>
+          <FeaturedCard image={FeaturedToast} title="Breakfast Toast" description="Perfect with your morning coffee."/>
+        </div>
         <button className="btn-outlined-dark">See More</button>
       </div>
       <div> 

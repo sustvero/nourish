@@ -1,12 +1,13 @@
 import React from 'react'
+import './styles.css'
 
-const FeaturedCard = (image, title, description) => {
+const FeaturedCard = (props) => {
   return (
-    <div>
+    <div className="card">
         <div>
-            <img src={image} />
-            <h2 className="card__title">{title}</h2>
-            <p className="card__description">{description}</p>
+            <img className="card-img" src={props.image} alt="featured-food-image"></img>
+            <h3 className="card__title">{props.title}</h3>
+            <p className="card__description">{props.description}</p>
         </div>
     </div>
   )

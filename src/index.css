@@ -12,6 +12,14 @@ code {
     monospace;
 }
 
+button {
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
 
 
 .dark {
@@ -43,7 +51,7 @@ code {
 
 .title-section {
   margin-left: 5rem;
-  padding: 6rem 0 8rem 0;
+  padding: 8rem 0 10rem 0;
   width: 40%;
 }
 
@@ -53,8 +61,11 @@ code {
 
 
 .header {
-  background-color: #4f4f4f;
+  background-image: url('./assets/images/header.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
   color: white;
+
 }
 
 .get-started-btn {
@@ -78,6 +89,7 @@ code {
   border-style: solid;
   border-width: 0.5px;
   float: right;
+  cursor: pointer;
 }
 
 .btn-outlined-dark {
@@ -85,7 +97,33 @@ code {
   background-color: transparent;
   border-color: black;
   border-radius: 10px;
-  padding: 0.7rem 1rem;
+  border-width: 1px;
+  padding: 0.8rem 1rem;
   border-style: solid;
-  border-width: 0.5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-dark {
+  color: white;
+  background-color: #888888;
+  border-color: #afaeae;
+  border-radius: 10px;
+  border-width: 2px;
+  padding: 0.8rem 1rem;
+  border-style: solid;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.btn-outlined-dark:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.featured {
+  padding: 2rem 0 3rem 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 16rem));
+  gap: 3rem;
+  justify-content: center;
 }
