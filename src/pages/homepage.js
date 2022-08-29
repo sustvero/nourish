@@ -6,16 +6,18 @@ import FeaturedSalad from '../assets/images/featured1.jpg'
 import FeaturedPasta from '../assets/images/featured2.jpg'
 import FeaturedToast from '../assets/images/featured3.jpg'
 import FeaturedCard from '../components/featuredCard/featuredCard';
+import {  Link } from "react-router-dom";
 
 
 const HomePage = () => {
+
   return (
     <div className="page">
       <div className="header">
           <Navbar />
           <div className="title-section">
             <h1 className="header-title">Food is fuel with Nourish.</h1>
-            <button className="get-started-btn" backgroundColor="white">Get Started</button>
+            <Link to="/login"><button className="get-started-btn" backgroundColor="white">Get Started</button></Link>
           </div>
       </div>
       <div className="light">
@@ -34,7 +36,7 @@ const HomePage = () => {
           <FeaturedCard image={FeaturedPasta} title="Hearty Roasted Veggie Pasta" description="Cheesy, filling, and delicious."/>
           <FeaturedCard image={FeaturedToast} title="Breakfast Toast" description="Perfect with your morning coffee."/>
         </div>
-        <button className="btn-outlined-dark">See More</button>
+        <Link to="/meals"><button className="btn-outlined-dark">See More</button></Link>
       </div>
       <div> 
         <Footer/>
