@@ -1,0 +1,38 @@
+label {
+    padding-right: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+input {
+    margin-right: 1rem;
+}
+
+textarea {
+    width: 100%;
+}
+
+.add-form-section {
+    padding-bottom: 1rem;
+}
+
+.img-placeholder {
+    border-style: dashed;
+    width: 1px;
+    border-color: rgb(215, 215, 215);
+    width: 300px;
+    height: 350px;
+}
+
+.add-container {
+    display: flex;
+}
+
+.add-left-section {
+    padding-right: 5rem;
+    flex: 1;
+}
+
+.desc-input {
+    width: 100%;
+}
+

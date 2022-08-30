@@ -20,6 +20,21 @@ button:hover {
   background-color: rgba(255, 255, 255, 0.2);
 }
 
+input {
+  padding: 0.2rem;
+  border-width: 1px;
+}
+
+textarea {
+  resize: none;
+}
+
+select {
+  width: 30%;
+  border-radius: none;
+  padding: 0.2rem;
+}
+
 
 
 .dark {
@@ -173,3 +188,11 @@ button:hover {
   
   align-items: center;
 }
+
+.expand-container {
+  margin: 3rem 3rem 1rem 1rem;
+  box-shadow: 0 2px 20px #cdcdcd;
+  border-radius: 10px;
+  padding: 1rem 3rem 3rem 3rem;
+}
+
