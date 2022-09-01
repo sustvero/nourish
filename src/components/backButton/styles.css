@@ -1,0 +1,15 @@
+.back-section {
+    padding: 1rem 0 0 4rem;
+}
+
+.back-btn {
+    border: none;
+    background-color: transparent;
+}
+
+label {
+    padding-left: 0.5rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+}

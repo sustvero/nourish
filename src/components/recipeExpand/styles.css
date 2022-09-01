@@ -1,4 +1,12 @@
-.card {
+.recipe-img {
+    height: 24rem;
+    object-fit: cover;
+    width: 100%
+}
+
+.recipe-card-lg {
+    padding-top: 0;
+    margin-top: 0;
     overflow: hidden;
     box-shadow: 0 2px 20px #cdcdcd;
     border-radius: 10px;
@@ -8,19 +16,14 @@
     cursor: pointer;
     transition: transform 500ms ease-in;
     background-color: white;
+    margin: 3rem 6rem;
+}
+
+.card-body {
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+}
+
+.ingredients-list {
     
-}
-
-.card-img {
-    height: 12rem;
-    width: 100%;
-    object-fit: cover;
-}
-
-.card__title {
-    padding: 0 1rem;
-}
-
-.card__description {
-    padding: 0 1rem;
 }

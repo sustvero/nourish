@@ -1,5 +1,6 @@
 import React from 'react'
 import './styles.css'
+import Footer from '../footer'
 
 const AddRecipe = () => {
   return (
@@ -54,6 +55,7 @@ const AddRecipe = () => {
           </form>
         </div>
       </div>
+      <Footer />
     </div>
   )
 }
